@@ -14,3 +14,4 @@ Resources:
       Role: 'arn:aws:iam::061051230398:role/gl-lambda-execution-role'
       Layers:
         - 'arn:aws:lambda:us-east-1:061051230398:layer:aws_auth:1'
+        - 'arn:aws:lambda:us-east-1:061051230398:layer:requests_layer:1'
